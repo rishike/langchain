@@ -24,9 +24,9 @@ load_dotenv()
 #     },
 # )
 
-# openai
-# llm = ChatOpenAI(llm=llm)
+# model = ChatHuggingFace(llm=llm)
 
+# openai
 model = ChatOpenAI(model='gpt-4', temperature=0.1, max_completion_tokens=100)
 
 schema = [
